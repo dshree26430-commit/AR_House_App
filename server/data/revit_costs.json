@@ -1,0 +1,42 @@
+{
+  "costPerSqFt": {
+    "standard": 2500,
+    "premium": 4000,
+    "luxury": 6500
+  },
+  "roomCosts": {
+    "kitchen": 200000,
+    "bathroom": 150000,
+    "bedroom": 100000,
+    "terrace": 300000
+  },
+  "models": [
+    {
+      "id": "model_1",
+      "name": "Spacious Hall",
+      "description": "A grand, open-plan living hall. Select to view in AR.",
+      "baseCost": 1500000,
+      "defaultSqFt": 1000,
+      "modelUrl": "/hall_plan.glb",
+      "poster": "/modern_home.png"
+    },
+    {
+      "id": "model_2",
+      "name": "Master Bedroom",
+      "description": "A cozy, luxurious master bedroom setup.",
+      "baseCost": 800000,
+      "defaultSqFt": 400,
+      "modelUrl": "/bedroom_plan.glb",
+      "poster": "/minimalist_villa.png"
+    },
+    {
+      "id": "model_3",
+      "name": "Modern Kitchen",
+      "description": "A sleek modern kitchen with island and marble tops.",
+      "baseCost": 1200000,
+      "defaultSqFt": 300,
+      "modelUrl": "/kitchen_plan.glb",
+      "poster": "/cozy_cabin.png"
+    }
+  ]
+}
